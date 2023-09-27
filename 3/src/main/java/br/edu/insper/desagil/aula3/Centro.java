@@ -9,9 +9,10 @@ public class Centro {
 		double max = Double.NEGATIVE_INFINITY;
 
 		for (double nota : notas.values()) {
-			if (min > nota) {
+		 	if (min > nota) {
 				min = nota;
-			} else if (max < nota) {
+			}
+		 	if (max < nota) {
 				max = nota;
 			}
 		}

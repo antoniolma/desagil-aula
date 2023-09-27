@@ -9,7 +9,7 @@ public class ProgressaoAritmetica {
 		List<Integer> pa = new ArrayList<>();
 		int a = a0;
 		for (int i = 0; i < n; i++) {
-			pa.add(i);
+			pa.add(a);
 			a += r;
 		}
 		return pa;
