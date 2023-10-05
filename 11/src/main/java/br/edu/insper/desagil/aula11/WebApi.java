@@ -8,6 +8,6 @@ public class WebApi {
 		RestServer server = JacksonRestServer.from("br.edu.insper.desagil.aula11.resource");
 
 		server.start();
-		System.out.println("http://10.102.19.226:8080".formatted(server.getPublicAddress()));
+		System.out.println("Endereço: http://%s:8080".formatted(server.getPublicAddress()));
 	}
 }
